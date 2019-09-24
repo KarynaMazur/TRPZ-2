@@ -6,12 +6,21 @@
         xmlns:local="clr-namespace:ITCompany"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Button Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="46.428" Margin="556.621,223.304,0,0" VerticalAlignment="Top" Width="169.047" Background="#FFF6F708" Content="To departments" FontSize="20" FontWeight="Bold"/>
+        
+        <TextBlock Grid.ColumnSpan="3" Height="95.238" Margin="276.301,64.969,236.027,0" TextWrapping="Wrap" Width="281.272" FontSize="48" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center"><Run Foreground="#FFF4E8E8" Text="Welcome!"/></TextBlock>
+        <Button Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="46.428" Margin="388.526,269.732,0,0" VerticalAlignment="Top" Width="169.047" Background="#FFF6F708" Content="To staffs" FontSize="20" FontWeight="Bold"/>
+        <Button Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="46.428" Margin="219.479,316.16,0,0" VerticalAlignment="Top" Width="169.047" Background="#FFF6F708" Content="To projects" FontSize="20" FontWeight="Bold"/>
+        <Button Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="46.428" Margin="45.432,363.972,0,0" VerticalAlignment="Top" Width="169.047" Background="#FFF6F708" Content="To tasks" FontSize="20" FontWeight="Bold"/>
+        <TextBlock Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="42.857" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107.142" Text="IT Company" Foreground="#FFF3F3F3" FontSize="16"/>
+
+
 
     </Grid>
 </Window>
